@@ -801,10 +801,6 @@ function _install_bin {
     local -r pfetch_repo="${_SCRIPT_DIR}/files${pfetch}"
     _copy_as_root "$pfetch_repo" "$pfetch" 755
 
-    # VaultCrypt.
-    local -r vcrypt="/usr/bin/vault-crypt"
-    local -r vcrypt_repo="${_SCRIPT_DIR}/files${vcrypt}"
-    _copy_as_root "$vcrypt_repo" "$vcrypt" 755
 }
 
 ## ---------------------------------------
