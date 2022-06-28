@@ -892,16 +892,20 @@ function _install_dotfiles_extra {
     _log log "Generate extra dotfiles"
 
     [[ $DEV_NO_USRCONFIG = 1 ]] && return
-    local -r conf="$XDG_CONFIG_HOME/shell/sysenv"
-    local -r tmpconf="$_TMP_DIR/sysenv"
-    local -r templates="${_SCRIPT_DIR}/templates/config/shell/sysenv.tmpl"
+    
+    # Add the default user to the sysenv file if it has been set.
+    if [[ ! -z $DEFAULT_USER ]]; then
+        local -r conf="$XDG_CONFIG_HOME/shell/sysenv"
+        local -r tmpconf="$_TMP_DIR/sysenv"
+        local -r templates="${_SCRIPT_DIR}/templates/config/shell/sysenv.tmpl"
 
-    # Create from the template to the tmp folder
-    touch "$tmpconf"
-    _template "$templates" > "$tmpconf"
+        # Create from the template to the tmp folder
+        touch "$tmpconf"
+        _template "$templates" > "$tmpconf"
 
-    #Copy from tmp to destination.
-    _run "cp -f "$tmpconf" "$conf""
+        #Copy from tmp to destination.
+        _run "cp -f "$tmpconf" "$conf""
+    fi
 }
 
 ## ---------------------------------------
