@@ -8,8 +8,8 @@
 ## Script name : Utility Library
 ## Description : A helper bash library to get useful functions.
 ## Dependencies:
-## Repository  : https://github.com/UbioZur-Tech/Templates
-## License     : https://github.com/UbioZur-Tech/Templates/LICENSE
+## Repository  : https://github.com/UbioZur/templates
+## License     : https://github.com/UbioZur/templates/LICENSE
 ##
 ## ---------------------------------------
 

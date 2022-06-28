@@ -8,8 +8,8 @@
 ## Script name : loglib
 ## Description : A helper bash library to log your script.
 ## Dependencies:
-## Repository  : https://github.com/UbioZur-Tech/Templates
-## License     : https://github.com/UbioZur-Tech/Templates/LICENSE
+## Repository  : https://github.com/UbioZur/templates
+## License     : https://github.com/UbioZur/templates/LICENSE
 ##
 ## ---------------------------------------
 

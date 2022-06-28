@@ -8,8 +8,8 @@
 ## Script name : Environement Library
 ## Description : A helper bash library to get useful environement information (OS / Hardware) for your script.
 ## Dependencies: uname, lspci
-## Repository  : https://github.com/UbioZur-Tech/Templates
-## License     : https://github.com/UbioZur-Tech/Templates/LICENSE
+## Repository  : https://github.com/UbioZur/templates
+## License     : https://github.com/UbioZur/templates/LICENSE
 ##
 ## ---------------------------------------
 

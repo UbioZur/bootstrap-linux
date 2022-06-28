@@ -8,8 +8,8 @@
 ## Script name : Common Library
 ## Description : Common functions used for the bootstrap-linux installs
 ## Dependencies: ssh-agent, loglib.sh, utilslib.sh, envlib.sh
-## Repository  : https://github.com/UbioZur-Tech/bootstrap-linux
-## License     : https://github.com/UbioZur-Tech/bootstrap-linux/LICENSE
+## Repository  : https://github.com/UbioZur/bootstrap-linux
+## License     : https://github.com/UbioZur/bootstrap-linux/LICENSE
 ##
 ## ---------------------------------------
 
